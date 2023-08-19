@@ -3,17 +3,18 @@
 
 #categorySection {
     padding-top: 1%;
-    background-color: #6f1a07;
+    background-color: white; /* Changed background color to white */
     padding-bottom: 6%;
 }
 
 .product-box-layout4 {
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #ffffff; /* Background color remains white */
     position: relative;
     z-index: 2;
     margin-bottom: 4rem;
 }
+
 
 .product-box-layout4:before {
     content: "";
