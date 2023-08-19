@@ -1,20 +1,119 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000000;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.container {
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-expand-lg {
+    background-color: #000000;
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 600;
+    font-size: 6.5rem;
+}
+
+.nav-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+/* ***********************************Home Section ********************************************/
+
+#homeSection {
+    position: relative;
+    padding: 20px 0;
+    color: white;
+}
+
+.homeRow {
+    width: 100%;
+    margin: auto;
+}
+
+.homeTxtCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.homeHeading {
+    font-weight: 400;
+    font-size: 3.4rem;
+}
+
+.homeHeading span {
+    font-size: 4.3rem;
+    border: 1px solid #000000;
+    background-color: white;
+    color: #000000;
+    padding: 1px 5px;
+}
+
+.homeBtnDiv {
+    text-align: center;
+}
+
+.homeBtn {
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 24px;
+}
+
+.homeImgCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeImg {
+    width: 95%;
+    height: 97%;
+}
+
 
 /* *************************************Category Section ***************************************/
 
 #categorySection {
     padding-top: 1%;
-    background-color:  #6f1a07; /* Changed background color to white */
+    background-color: #6f1a07;
     padding-bottom: 6%;
 }
 
 .product-box-layout4 {
     padding: 30px;
-    background-color: #ffffff; /* Background color remains white */
+    background-color: #ffffff;
     position: relative;
     z-index: 2;
     margin-bottom: 4rem;
 }
-
 
 .product-box-layout4:before {
     content: "";
@@ -252,6 +351,95 @@
     font-size: 1.3rem;
 }
 
+
+/* **********************************Hygiene Section ********************************************/
+
+#healthySection {
+    padding-top: 0.5%;
+    background-color: #000000;
+    padding-bottom: 4%;
+}
+
+.eatSure {
+    background-color: #efddc9;
+    border-radius: 22px;
+}
+
+.eatSure .row {
+    width: 100%;
+    padding: 25px 0;
+    margin: auto;
+}
+
+.eatSure .row .col-sm-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.borderLeft {
+    border-left: 1px solid black;
+}
+
+.icon-wrapper {
+    background-color: #e89b3d;
+    padding: 2px 6px;
+    border-radius: 3px;
+    padding-top: 0;
+}
+
+.eatSure .icon-wrapper svg {
+    width: 10px;
+    height: 10px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.knowMoreBtn {
+    border: 1px solid #e89b3d;
+    border-radius: 22px;
+}
+
+.knowMoreBtn:hover {
+    background-color: #e89b3d;
+    color: snow;
+}
+
+.knowMoreBtn:focus {
+    background-color: #e89b3d;
+}
+
+.safetyMeasuresDiv {
+    margin: 3% auto;
+    text-align: center;
+    color: snow;
+}
+
+.safetyMeasuresDiv .safetyMeasuresPara {
+    font-size: 1.1rem;
+}
+
+.safetyMeasures {
+    margin: 3% auto;
+}
+
+.safetyMeasures .col-sm-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.safetyMeasures .col-sm-3 p {
+    margin-top: 10px;
+}
 
 
 /* *****************************************Footer Section ****************************************/
