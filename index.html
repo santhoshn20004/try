@@ -274,28 +274,20 @@
 
 <!--Services plus working hours-->
 
-    <section id="categorySection"  background-color: Orange>
+    <section id="categorySection">
       <div class="container">
-        <h1 style="text-align: center; margin: 50px auto">
-          <span
-            style="
-              font-size: 3rem;
-              border: 1px solid #a8763e;
-              background-color: white;
-              color: #6f1a07;
-              padding: 1px 5px;
-            "
-            ><b>CATEGORIES</b></span
-          >
+        <h1>
+          <span><b>CATEGORIES</b></span>
         </h1>
         <div class="row gutters-40">
           <div class="col-lg-4 col-sm-4 col-4">
             <div class="product-box-layout4 momos">
               <div class="item-figure">
                 <img
-                  src="./images/momos.jpg"
+                  src="./images/momos.webp"
                   alt="Category"
-                  style="width: 100%; height: 100%"
+                  width="100%"
+                  height="100%"
                 />
               </div>
               <div class="item-content">
@@ -308,9 +300,10 @@
             <div class="product-box-layout4 chinese">
               <div class="item-figure">
                 <img
-                  src="./images/chinese.jpg"
+                  src="./images/chinese.webp"
                   alt="Category"
-                  style="width: 100%; height: 100%"
+                  width="100%"
+                  height="100%"
                 />
               </div>
               <div class="item-content">
@@ -323,9 +316,10 @@
             <div class="product-box-layout4 beverages">
               <div class="item-figure">
                 <img
-                  src="./images/beverages.jpg"
+                  src="./images/beverages-updated.webp"
                   alt="Category"
-                  style="width: 100%; height: 100%"
+                  width="100%"
+                  height="100%"
                 />
               </div>
               <div class="item-content">
@@ -335,9 +329,9 @@
           </div>
         </div>
 
-        <!-- Menu -->
+        <!-- MENU STARTS HERE -->
         <div class="menuDiv">
-          <!-- Modal -->
+          <!-- MODAL -->
           <div
             class="modal fade"
             id="exampleModal"
@@ -363,33 +357,33 @@
                   <div class="container-fluid">
                     <div class="row paymentInfoRow">
                       <div class="col paymentInfo">
-                        <span class="checkIcon" style="color: green"
+                        <span class="checkIcon"
                           ><i class="fas fa-check-circle"></i
                         ></span>
                         Select Menu
                       </div>
                       <div class="col paymentInfo">
                         <span class="checkIcon"
-                          ><i class="fas fa-check-circle"></i
+                          ><i class="fa-brands fa-whatsapp"></i
                         ></span>
                         Place order via Whatsapp
                       </div>
                       <div class="col paymentInfo">
                         <span class="checkIcon"
-                          ><i class="fas fa-check-circle"></i
-                        ></span>
+                          ><i class="fa-brands fa-google-pay"></i>
+                        </span>
                         Pay using Google Pay.
                       </div>
                     </div>
 
-                    <hr style="color: black; width: 90%; margin: 15px auto" />
+                    <hr class="cartHr" />
 
                     <div class="cartContentDiv">
                       <h1>Your Cart is Empty</h1>
                     </div>
 
                     <div class="userInfoDiv">
-                      <div class="mb-3">
+                      <div class="mb-3 px-2">
                         <label for="address">Address *</label> <br />
                         <textarea
                           type="text"
@@ -397,7 +391,7 @@
                           id="address"
                         ></textarea>
                       </div>
-                      <div class="mb-3">
+                      <div class="mb-3 px-2">
                         <label for="note">Note (optional)</label> <br />
                         <textarea
                           type="text"
@@ -406,11 +400,10 @@
                         ></textarea>
                       </div>
                     </div>
-
-                    <div class="totalAmountDiv"></div>
                   </div>
                 </div>
                 <div class="modal-footer">
+                  <div class="totalAmountDiv"></div>
                   <button
                     type="button"
                     class="btn btn-secondary"
@@ -418,9 +411,6 @@
                   >
                     Clear Cart
                   </button>
-                  <a href="tel:+919871198882" class="btn btn-secondary"
-                    >Call Us</a
-                  >
                   <a class="btn btn-primary" onclick="openWhatsapp()">
                     Order Now
                   </a>
@@ -429,20 +419,11 @@
             </div>
           </div>
 
-          <div id="momos" style="display: none">
+          <div id="momos">
             <div class="row menuHeading">
               <div class="col-12">
                 <h1>Momos</h1>
               </div>
-              <!-- Button trigger modal -->
-              <span
-                class="shoppingCart"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
-                <i class="fas fa-shopping-cart"></i>
-                <span class="shoppingCartAfter">0</span>
-              </span>
             </div>
             <div class="row">
               <div class="col-sm-6 col-12">
@@ -456,8 +437,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -484,8 +465,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -512,8 +493,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -540,8 +521,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -567,9 +548,9 @@
                           Chicken Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -595,9 +576,9 @@
                           Chicken Schezwan Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -623,9 +604,9 @@
                           Chicken and Cheese Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -651,9 +632,9 @@
                           Fish Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -686,8 +667,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -714,8 +695,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -742,8 +723,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -770,8 +751,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -797,9 +778,9 @@
                           Chicken Fried Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -825,9 +806,9 @@
                           Chicken Schezwan Fried Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -853,9 +834,9 @@
                           Chicken Cheese Fried Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -868,7 +849,7 @@
                           ><i class="fas fa-minus"></i
                         ></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn minus"
+                        <span class="menuBtn plus"
                           ><i class="fas fa-plus"></i
                         ></span>
                       </div>
@@ -881,9 +862,9 @@
                           Fish Fried Momo
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -913,12 +894,12 @@
                 data-toggle="modal"
                 data-target="#exampleModal"
               >
-                Check Out
+                <i class="fas fa-shopping-cart"></i> Go to Cart
               </button>
             </div>
           </div>
 
-          <div id="chinese" style="display: none">
+          <div id="chinese">
             <div class="row menuHeading">
               <div class="col-12">
                 <h1>Chinese</h1>
@@ -945,8 +926,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -973,8 +954,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1000,8 +981,8 @@
                           Steamed Rice<span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1028,8 +1009,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1055,9 +1036,9 @@
                           Chicken Hakka Noodles
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1083,9 +1064,9 @@
                           Chicken Garlic Noodles
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1111,9 +1092,9 @@
                           Chicken Fried Rice
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1139,9 +1120,9 @@
                           Mix Meat Fried Rice
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1173,8 +1154,8 @@
                           Chilli Potato<span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1201,8 +1182,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1229,8 +1210,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1256,9 +1237,9 @@
                           Chicken Spring Roll
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1283,9 +1264,9 @@
                         <p>
                           Crispy Honey Chicken<span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1304,6 +1285,85 @@
                       </div>
                     </div>
                     <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Cantonese Spring Rolls<span>
+                            <img
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>400
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Baked Chicken Wings<span>
+                            <img
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>420
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Crab Rangoon<span>
+                            <img
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>540
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
 
                     <div class="row foodItem"></div>
                   </div>
@@ -1320,8 +1380,8 @@
                           Veg Garlic Sauce<span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1348,8 +1408,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1376,8 +1436,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1404,8 +1464,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1431,13 +1491,94 @@
                           Stir Fried Asian Green<span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
                         <p class="text-muted-small">
                           <i class="fas fa-rupee-sign"></i>370
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Burnt Garlic Rice
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="./images/veg.webp"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>395
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Creamy Noodles
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="./images/veg.webp"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>250
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Shredded Chicken
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>640
                         </p>
                       </div>
                       <div class="col-3 addCol">
@@ -1462,12 +1603,12 @@
                 data-toggle="modal"
                 data-target="#exampleModal"
               >
-                Check Out
+                <i class="fas fa-shopping-cart"></i> Go to Cart
               </button>
             </div>
           </div>
 
-          <div id="beverages" style="display: none">
+          <div id="beverages">
             <div class="row menuHeading">
               <div class="col-12">
                 <h1>Beverages</h1>
@@ -1494,8 +1635,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1522,8 +1663,8 @@
                           <span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1549,8 +1690,8 @@
                           Hot 'N' Sour<span>
                             <img
                               class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
+                              src="./images/veg.webp"
+                              alt="veg-icon"
                             />
                           </span>
                         </p>
@@ -1576,9 +1717,9 @@
                           Chicken Manchow
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1604,9 +1745,9 @@
                           Chicken Sweet Corn
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1632,9 +1773,9 @@
                           Chicken Hot 'N' Sour
                           <span>
                             <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
+                              class="nonVegIcon"
+                              src="./images/non-veg.webp"
+                              alt="non-veg icon"
                             />
                           </span>
                         </p>
@@ -1753,6 +1894,24 @@
                         ></span>
                       </div>
                     </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Virgin Mojito</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>230
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1765,15 +1924,13 @@
                 data-toggle="modal"
                 data-target="#exampleModal"
               >
-                Check Out
+                <i class="fas fa-shopping-cart"></i> Go to Cart
               </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-
 
 <!-- facts counter  -->
 <section id="facts">
